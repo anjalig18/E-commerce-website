@@ -1,11 +1,11 @@
-# Project Name
+# SHOPPER
 
 Welcome to Shopper, your destination for a diverse online shopping experience. Explore our wide selection of products, from electronics to fashion and groceries. Enjoy secure transactions, detailed product descriptions, and personalized recommendations for a seamless shopping journey. Discover convenience and quality with every click at Shopper!
 
 ## Project Structure
 
-- `backend`: Contains the server-side code and logic.
-- `frontend`: Contains the client-side code for user interaction.
+- `backend`: Contains the server-side code and logic using Node.js and Express.js.
+- `frontend`: Contains the client-side code built with React for user interaction.
 - `admin`: Contains the administrative interface and functionalities.
 
 ## Getting Started
@@ -14,9 +14,8 @@ These instructions will help you set up the project on your local machine for de
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (for frontend and admin if applicable)
-- [PHP](https://www.php.net/) (for backend)
-- [MySQL](https://www.mysql.com/) (for database)
+- [Node.js](https://nodejs.org/) (for backend and frontend)
+- [MongoDB](https://www.mongodb.com/) (for database)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Installation
@@ -38,18 +37,19 @@ These instructions will help you set up the project on your local machine for de
     cd backend
     ```
 
-2. Install the necessary dependencies (if using Composer or similar):
+2. Install the necessary dependencies:
     ```bash
-    composer install
+    npm install
     ```
 
-3. Set up the database:
-    - Create a database in MySQL.
+3. Set up the MongoDB database:
+    - Install MongoDB if not already installed.
+    - Start MongoDB service.
     - Update the database configuration in the backend configuration file.
 
 4. Start the backend server:
     ```bash
-    php -S localhost:8000
+    npm start
     ```
 
 ### Frontend Setup
